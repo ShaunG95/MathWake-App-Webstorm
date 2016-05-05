@@ -1,0 +1,130 @@
+/*
+ Created by Shaun
+ */
+
+/*
+BACKGROUND COLOUR
+*/
+body {
+    background-color: rgba(71, 116, 127, 0.4);
+}
+
+/*
+ALARMS HEADING ALIGNMENT
+*/
+h1 {
+    text-align: center;
+}
+
+/*
+PANEL STYLING
+*/
+#panelDisplay, #flipDisplay, #panelSettings, #flipSettings {
+    padding: 15px;
+    text-align: center;
+    background-color: #96d8ee;
+    border: solid 1px #c3c3c3;
+}
+
+/*
+PANEL STYLING
+*/
+#panelDisplay, #panelSettings {
+    padding: 50px;
+    display: none;
+}
+
+/*
+FLIPCLOCK STYLING
+*/
+.clock {
+    margin: 2em;
+    position: absolute;
+    zoom: 0.8;
+    top: 25px;
+}
+
+/*
+CENTRING FLIPCLOCK
+*/
+.center {
+    position: absolute;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -0%)
+}
+
+/*
+MOVING ALL OTHER CONTENT DOWN 120px TO STOP OVERLAP
+*/
+.below {
+    position: relative;
+    top: 140px;
+}
+
+/*
+ALARM LIST POSITIONING
+*/
+#Alarm1 {
+    position: fixed;
+    text-align: center;
+}
+#Alarm2 {
+    text-align: center;
+}
+#Alarm3 {
+    text-align: center;
+}
+#Alarm4 {
+    text-align: center;
+}
+
+/*
+*/
+.SetAlarm1 {
+    position: absolute;
+    height: 50px;
+    width: 50px;
+    right: 20px;
+    top: 95px;
+}
+
+.SetAlarm2 {
+    position: absolute;
+    height: 50px;
+    width: 50px;
+    right: 20px;
+    top: 220px;
+}
+
+.SetAlarm3 {
+    position: absolute;
+    height: 50px;
+    width: 50px;
+    right: 20px;
+    bottom: 190px;
+}
+
+.SetAlarm4 {
+    position: absolute;
+    height: 50px;
+    width: 50px;
+    right: 20px;
+    bottom: 60px;
+}
+
+/*
+/SETTINGS PAGE
+*/
+#btnReturn {
+	position: absolute;
+	height: 50px;
+	width: 90px;
+}
+/*
+jQuery button sizing
+*/
+.checkboxes{
+	float: left;
+    width: 80%;
+}
